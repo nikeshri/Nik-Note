@@ -9,7 +9,7 @@ import { doc, setDoc } from "firebase/firestore";
 import { updateProfile } from "firebase/auth";
 
 const Signup = () => {
-  document.title = "Note Zone | Signup";
+  document.title = "Nik-Note| Signup";
   const navigate = useNavigate();
 
   const [isPasswordHide, setIsPasswordHide] = useState(true);

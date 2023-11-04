@@ -5,7 +5,7 @@ import landing from "../../assets/landing.svg";
 import { AuthContext } from "../../contexts/AuthContext";
 
 const Landing = () => {
-  document.title = "Note Zone";
+  document.title = "Nik-Note";
   const { user } = useContext(AuthContext);
 
   return (

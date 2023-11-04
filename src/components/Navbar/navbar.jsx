@@ -24,7 +24,7 @@ const Navbar = () => {
       <nav>
         <div className="left-nav">
           <img src={logo} alt="logo" />
-          <h2>Note Zone</h2>
+          <h2>Nik-Note</h2>
         </div>
         <div className="middle-nav">
           <div className="search-bar">

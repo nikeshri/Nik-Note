@@ -6,7 +6,7 @@ import { AuthContext } from "../../contexts/AuthContext";
 import { toast } from "react-toastify";
 
 const Login = () => {
-  document.title = "Note Zone | Login";
+  document.title = "Nik-Note | Login";
   const [isPasswordHide, setIsPasswordHide] = useState(true);
   const navigate = useNavigate();
 
@@ -44,7 +44,7 @@ const Login = () => {
       <div className="login">
         <div className="login-logo">
           <img src={logo} alt="logo" />
-          <h2>Note Zone</h2>
+          <h2>Nik-Note</h2>
         </div>
         <h2>Login</h2>
         <form onSubmit={handleSubmitLogIn}>
