@@ -55,8 +55,18 @@
 
 @media screen and (max-width: 500px) {
   .hero__container {
-    flex-direction: column;
-    margin: 5rem auto;
-    gap: 10rem;
+    margin: 3rem auto; /* Adjust the margin for smaller screens */
+    gap: 2rem; /* Adjust the gap for smaller screens */
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero__tagline {
+    font-size: 2.5rem; /* Further reduce font size for very small screens */
+  }
+
+  .img-res {
+    height: auto;
+    max-width: 80%; /* Make images slightly smaller on very small screens */
   }
 }
